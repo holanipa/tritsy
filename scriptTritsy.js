@@ -52,7 +52,7 @@ function fill(jsUserData, jsEquivalencias){
 			if (element.type == "radio" && jsUserData[key] == true){
 				element.checked = true;
 			}
-			if (jsUserData[key] != "undefined"){
+			if (jsUserData[key] != undefined){
 			  element.value = jsUserData[key];
       }else{
         element.value = "";
